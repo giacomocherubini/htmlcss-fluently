@@ -1,0 +1,160 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ body {
+   font-family: 'Noto Sans', sans-serif;
+ }
+
+nav {
+  background-color: #0d325a;
+  width: 100%;
+  height: 80px;
+}
+
+nav::after {
+  content: "";
+ clear: both;
+ display: table;
+}
+
+.contenitore {
+  width: 70%;
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
+}
+
+.nav_sinistro {
+  width: 45%;
+  float: left;
+}
+
+.nav_destro {
+  width: 40%;
+  float: right;
+}
+
+.nav_sinistro,
+.nav_destro,
+.imglogo {
+  height: 100%;
+  display: inline-block;
+}
+
+li {
+  list-style-type: none;
+}
+
+.nav_sinistro ul li,
+.nav_destro ul li {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.menu_bianco,
+.link_grey ,
+.login,
+.link_green {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.menu_bianco,
+.login,
+.link_green  {
+  color: white;
+}
+
+.link_grey {
+  color: grey;
+}
+
+.login,
+.link_green {
+  padding: 6px;
+  border-radius: 3px;
+}
+
+.login {
+  border: 1px solid #4e8cb6;
+}
+
+.link_green {
+ background-color: #7fb802;
+}
+
+.vertical_center {
+  line-height: 80px;
+  text-align: center;
+}
+
+.imglogo {
+  width: 15%;
+  float: left;
+}
+
+section.primoblocco {
+  width: 100%;
+  height: 400px;
+  background-image: url("uomini.jpg");
+
+}
+
+.text_primo_blocco{
+  width: 50%;
+  text-align: left;
+  font-size: 30px;
+  position: absolute;
+  left: 0;
+  top:  50%;
+  transform: translateY(-50%);
+
+}
+
+.text_primo_blocco h1 {
+  color: white;
+  padding-bottom: 30px;
+}
+
+.text_primo_blocco li a {
+  font-size: 20px;
+}
+
+.secondoblocco {
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  padding: 20px;
+}
+
+.terzoblocco {
+  background-color: white;
+  width: 100%;
+  height: 400px;
+}
+
+.tre_colonne {
+  width: 30%;
+  height: 100%;
+  margin: 20px;
+  float: left;
+  text-align: center;
+}
+
+.tre_colonne img {
+  max-width: 140px;
+  padding-bottom: 20px;
+}
+
+.tre_colonne h2 {
+  color: #7fb802;
+  padding-bottom: 20px;
+}
+
+.tre_colonne h5 {
+  color: grey;
+}
